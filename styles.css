@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background-color: #0a0a0a;
+  color: #ffffff;
+  line-height: 1.6;
+}
+
+a {
+  color: #00ffd1;
+  text-decoration: none;
+}
+
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #000;
+  border-bottom: 1px solid #111;
+}
+
+.site-header .logo {
+  height: 50px;
+}
+
+.main-nav a {
+  margin: 0 1rem;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.hero {
+  text-align: center;
+  padding: 6rem 2rem;
+  background: linear-gradient(to bottom, #0a0a0a, #111);
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  max-width: 700px;
+  margin: 0 auto 1rem;
+  color: #ffffff;
+}
+
+.hero .hype {
+  color: #00ffd1;
+}
+
+.hero p {
+  color: #ccc;
+  max-width: 600px;
+  margin: 0 auto 2rem;
+}
+
+.btn-cta {
+  background-color: #ff00a8;
+  color: white;
+  padding: 0.75rem 1.5rem;
+  border-radius: 5px;
+  font-weight: bold;
+  display: inline-block;
+}
+
+.benefits, .services, .portfolio, .contact {
+  padding: 4rem 2rem;
+  text-align: center;
+}
+
+.benefits {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  background-color: #111;
+}
+
+.benefit h3 {
+  color: #00ffd1;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.card {
+  background-color: #1a1a1a;
+  padding: 1.5rem;
+  border-radius: 8px;
+  width: 300px;
+  text-align: left;
+}
+
+.card h4 {
+  color: #00ffd1;
+}
+
+.portfolio {
+  background-color: #0f0f0f;
+}
+
+.contact {
+  background-color: #1c1c1c;
+}
+
+.site-footer {
+  text-align: center;
+  padding: 2rem;
+  font-size: 0.9rem;
+  background-color: #000;
+  border-top: 1px solid #111;
+}
+
+.site-footer nav a {
+  margin: 0 0.5rem;
+  color: #888;
+}

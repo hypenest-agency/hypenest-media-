@@ -1,86 +1,60 @@
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>HypeNest Media</title>
-    <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HypeNest Media</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <div class="container">
-            <h1 class="logo">HypeNest Media</h1>
-            <nav>
-                <ul>
-                    <li><a href="#inicio">Inicio</a></li>
-                    <li><a href="#servicios">Servicios</a></li>
-                    <li><a href="#porquenos">¿Por qué HypeNest?</a></li>
-                    <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#contacto">Contacto</a></li>
-                </ul>
-            </nav>
-        </div>
-    </header>
+  <header class="site-header">
+    <img src="images/logo.png" alt="HypeNest Media Logo" class="logo" />
+    <nav class="main-nav">
+      <a href="#servicios">Servicios</a>
+      <a href="#caso">Portafolio</a>
+      <a href="#contacto">Contacto</a>
+    </nav>
+  </header>
 
-    <section id="inicio" class="hero">
-        <div class="hero-content">
-            <h2>Impulsamos marcas, creamos resultados</h2>
-            <p>E-commerce. Creadores. Marcas personales. Resultados reales.</p>
-            <a href="#servicios" class="btn">Conoce lo que hacemos</a>
-        </div>
-    </section>
+  <section class="hero">
+    <h1>Impulsamos marcas con <span class="hype">hype</span>, estrategia y resultados</h1>
+    <p>Especialistas en crecimiento orgánico, publicidad digital y posicionamiento de marcas personales y e-commerce.</p>
+    <a href="#contacto" class="btn-cta">Solicita tu asesoría gratuita</a>
+  </section>
 
-    <section id="servicios" class="section">
-        <h2>Servicios</h2>
-        <div class="services">
-            <div class="service">
-                <h3>E-commerce Ads</h3>
-                <p>Estrategias de pago para escalar ventas.</p>
-            </div>
-            <div class="service">
-                <h3>Crecimiento Orgánico</h3>
-                <p>Contenido auténtico para creadores digitales.</p>
-            </div>
-            <div class="service">
-                <h3>Marcas Personales</h3>
-                <p>Branding que te posiciona como referente.</p>
-            </div>
-        </div>
-    </section>
+  <section class="benefits">
+    <div class="benefit"><h3>Visibilidad real</h3><p>Crecimiento orgánico con contenido de impacto.</p></div>
+    <div class="benefit"><h3>Estrategias inteligentes</h3><p>Campañas pensadas para tu audiencia ideal.</p></div>
+    <div class="benefit"><h3>Resultados medibles</h3><p>Optimizamos cada paso para que conviertas.</p></div>
+  </section>
 
-    <section id="porquenos" class="section dark">
-        <h2>¿Por qué HypeNest?</h2>
-        <ul>
-            <li>Nos enfocamos en marcas en crecimiento</li>
-            <li>Creatividad con resultados medibles</li>
-            <li>Gestión completa desde estrategia hasta contenido</li>
-        </ul>
-    </section>
+  <section id="servicios" class="services">
+    <h2>Servicios</h2>
+    <div class="cards">
+      <div class="card"><h4>Marketing para e-commerce</h4><p>Campañas que venden. Embudos, tráfico, conversiones.</p></div>
+      <div class="card"><h4>Branding Personal</h4><p>Posiciónate como referente en tu nicho.</p></div>
+      <div class="card"><h4>Publicidad Digital</h4><p>Meta Ads, Google Ads, campañas inteligentes.</p></div>
+    </div>
+  </section>
 
-    <section id="portafolio" class="section">
-        <h2>Portafolio: Caso J.threads</h2>
-        <p>J.threads es nuestra propia marca de e-commerce. Desde HypeNest Media desarrollamos su identidad visual, estrategia de anuncios y contenido para Instagram y Facebook.</p>
-        <p>Resultado: +500 visitas en la primera semana, CTR del 6.2% en campañas, y primeros pedidos en menos de 10 días.</p>
-    </section>
+  <section id="caso" class="portfolio">
+    <h2>Caso de Éxito: J.threads</h2>
+    <p>+500 visitas en 7 días. CTR del 6.2%. Primeras ventas en menos de 10 días.</p>
+  </section>
 
-    <section id="contacto" class="section dark">
-        <h2>Contacto</h2>
-        <form>
-            <input type="text" placeholder="Tu nombre" required>
-            <input type="email" placeholder="Tu correo" required>
-            <textarea placeholder="Cuéntanos sobre tu proyecto" required></textarea>
-            <button type="submit">Enviar</button>
-        </form>
-    </section>
+  <section id="contacto" class="contact">
+    <h2>¿Listo para escalar tu marca?</h2>
+    <a href="mailto:contacto@hypenestmedia.com" class="btn-cta">Contáctanos hoy</a>
+  </section>
 
-    <footer>
-        <p>&copy; 2025 HypeNest Media. Todos los derechos reservados.</p>
-        <nav>
-            <a href="legal/politicas.html">Políticas de Servicio</a> |
-            <a href="legal/privacidad.html">Privacidad</a> |
-            <a href="legal/terminos.html">Términos</a>
-        </nav>
-    </footer>
+  <footer class="site-footer">
+    <p>&copy; 2025 HypeNest Media</p>
+    <nav>
+      <a href="#">Políticas</a>
+      <a href="#">Privacidad</a>
+      <a href="#">Términos</a>
+    </nav>
+  </footer>
 </body>
 </html>
